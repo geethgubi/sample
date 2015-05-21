@@ -15,6 +15,8 @@ public class SellingBreadActivity extends ActionBarActivity {
         setContentView(R.layout.activity_selling_bread);
 
         TextView txtView = (TextView)findViewById(R.id.text);
+
+        txtView.setText("Hello World!");
     }
 
     @Override
